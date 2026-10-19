@@ -1,0 +1,9 @@
+{
+  "regions": ["icn1"],
+  "rewrites": [
+    {
+      "source": "/:path*",
+      "destination": "/api/index.py"
+    }
+  ]
+}
